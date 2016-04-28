@@ -29,7 +29,7 @@ myApp.controller("TopSpots", [
 
 		newTopSpot.location = [Number(newTopSpot.latitude), Number(newTopSpot.longitude)];
 		$scope.topSpots.push(newTopSpot);
-
+		$scope.newTopSpot = {};
 	};
 
 	activate();
